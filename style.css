@@ -1,0 +1,24 @@
+:root{--bg:#f7f7f9;--card:#ffffff;--muted:#6b7280;--accent:#2563eb}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:900px;margin:0 auto;padding:20px}
+.site-header{background:#111;color:white;padding:12px 0}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.site-header .logo{margin:0;font-size:20px}
+.site-header nav a{color:#ddd;text-decoration:none;margin-left:16px}
+.toolbar{display:flex;gap:8px;margin:18px 0}
+.toolbar input{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+.toolbar button{padding:8px 12px;border-radius:6px;border:none;background:var(--accent);color:white}
+.posts-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.post-card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.post-card h3{margin:0 0 8px 0}
+.post-card p{margin:0 0 8px 0;color:var(--muted);font-size:14px}
+.view.hidden{display:none}
+.manage-actions{display:flex;gap:8px;margin-top:12px}
+button.small{padding:6px 8px;border-radius:6px;border:none}
+button.small.edit{background:#06b6d4;color:#fff}
+button.small.del{background:#ef4444;color:#fff}
+#post-form{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+#post-form input,#post-form textarea{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;margin-bottom:8px}
+.form-actions{display:flex;gap:8px}
+@media (max-width:600px){.site-header .container{flex-direction:column;gap:8px}.posts-list{grid-template-columns:1fr}}
