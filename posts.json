@@ -1,1 +1,22 @@
-[]
+
+  {
+    "title": "my",
+    "author": "Aditya",
+    "content": "fuck you",
+    "date": "2025-10-06T13:34:14.251Z",
+    "id": "1759757644159"
+  },
+  {
+    "title": "First post",
+    "author": "sourish",
+    "content": "Hello",
+    "date": "2025-10-06T19:24:27.115Z",
+    "id": "1759778667174"
+  },
+  {
+    "title": "2nd post",
+    "author": "Sourish",
+    "content": "This is my 2nd post",
+    "date": "2025-10-09T15:49:37.941Z",
+    "id": "1760024978024"
+  }
